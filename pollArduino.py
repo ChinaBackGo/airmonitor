@@ -1,6 +1,7 @@
 import serial
 import re
 
+#TODO LIST USB devices and select Arduino
 ser = serial.Serial('/dev/cu.usbmodem621', 9600)
 while True:
 	linein = ser.readline()
